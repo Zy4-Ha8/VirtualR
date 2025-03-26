@@ -18,7 +18,7 @@ const WorkFlow = () => {
         <div className="w-full lg:w-1/2 mt-12">
           {checklistItemsArry.map((item ,key) => (
             <div key={key} className="flex  mb-12">
-              <div className=" mx-10 h-10 w-10 p-2 text-green-500">
+              <div className=" mr-10 h-10 w-10 p-2 text-green-500">
                 <CheckCircle2 />
               </div>
               <div>
